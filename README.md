@@ -9,7 +9,7 @@ I'm not sure if this is a good idea or not. You probably don't want to include s
 ```swift
 // Add to your Package.swift:
 dependencies: [
-  .package(path: "https://github.com/nakajima/EmbedResources.swift")
+  .package(url: "https://github.com/nakajima/EmbedResources.swift", branch: "main")
 ],
 // ...
 plugins: [
