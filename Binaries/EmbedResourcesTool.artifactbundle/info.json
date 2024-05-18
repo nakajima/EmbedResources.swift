@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "artifacts": {
+    "EmbedResources": {
+      "version": "1.0.0",
+      "type": "executable",
+      "variants": [
+        {
+          "path": "EmbedResourcesTool-1.0.0-macos/bin/EmbedResources",
+          "supportedTriples": ["arm64-apple-macosx"]
+        }
+      ]
+    }
+  }
+}
