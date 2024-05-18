@@ -62,12 +62,9 @@ extension EmbedResourcesPlugin {
 				result[filename] = path
 			}
 
-			Diagnostics.remark("Here we are")
-
 			let configPath = pluginWorkDirectory.appending("\(moduleName)-resources.json")
 			let configData = try JSONEncoder().encode(resourcesWithData)
 			try configData.write(to: URL(filePath: configPath.string))
-
 			let output = pluginWorkDirectory.appending("__Embedded\(moduleName)Resources.swift")
 
 			return .prebuildCommand(
