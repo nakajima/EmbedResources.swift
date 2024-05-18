@@ -31,8 +31,8 @@ Bundle.embedded.data(for: "some-image.gif")
 
 It's a build plugin that copies from your modules' Resources/ directories into a generated Swift file.
 
-So let’s say you have a module named "CoolModule" with a Resources/ directory that has a file "Hello.txt"
-that has the contents "Hello world". The plugin will generate the following file for you:
+So let’s say you have a module named "CoolModule" with a Resources/ directory that has a file "Hi.txt"
+that has the contents "hello world". The plugin will generate the following file for you:
 
 ```swift
 // __EmbeddedCoolModuleResources.swift
